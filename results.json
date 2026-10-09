@@ -1,0 +1,201 @@
+{
+  "surfaces": {
+    "LEFT": {
+      "execution_time_s": 52.89,
+      "trajectory_nodes": 155,
+      "passes": 4,
+      "reachable_nodes": 155,
+      "planned_min_clearance_m": 0.296,
+      "runtime_min_clearance_m": 0.296,
+      "warnings": 0,
+      "coverage_percent": 100.0
+    },
+    "RIGHT": {
+      "execution_time_s": 52.89,
+      "trajectory_nodes": 155,
+      "passes": 4,
+      "reachable_nodes": 155,
+      "planned_min_clearance_m": 0.296,
+      "runtime_min_clearance_m": 0.296,
+      "warnings": 0,
+      "coverage_percent": 100.0
+    },
+    "ROOF": {
+      "execution_time_s": 53.98,
+      "trajectory_nodes": 150,
+      "passes": 11,
+      "reachable_nodes": 150,
+      "planned_min_clearance_m": 0.263,
+      "runtime_min_clearance_m": 0.263,
+      "warnings": 0,
+      "coverage_percent": 100.0
+    },
+    "HOOD": {
+      "execution_time_s": 49.87,
+      "trajectory_nodes": 142,
+      "passes": 9,
+      "reachable_nodes": 142,
+      "planned_min_clearance_m": 0.235,
+      "runtime_min_clearance_m": 0.234,
+      "warnings": 0,
+      "coverage_percent": 100.0
+    },
+    "TRUNK": {
+      "execution_time_s": 39.0,
+      "trajectory_nodes": 112,
+      "passes": 7,
+      "reachable_nodes": 112,
+      "planned_min_clearance_m": 0.235,
+      "runtime_min_clearance_m": 0.234,
+      "warnings": 0,
+      "coverage_percent": 100.0
+    }
+  },
+  "collisions": 0,
+  "warnings": 0,
+  "total_coverage_percent": 100.0,
+  "total_sim_time_s": 485.1,
+  "planning_reports": {
+    "LEFT": {
+      "surface": "LEFT",
+      "station": "LEFT",
+      "passes": 4,
+      "nodes": 155,
+      "reachable": 155,
+      "unreachable": 0,
+      "joint_jumps": 0,
+      "min_clearance_m": 0.29598786021107815,
+      "poses_below_clearance": 0,
+      "within_joint_limits": true,
+      "path_length_m": 17.700000000000003,
+      "planned_duration_s": 52.89009422767857,
+      "success": true,
+      "max_joint_abs": [
+        1.15,
+        0.88,
+        2.42,
+        4.28,
+        1.39,
+        2.3
+      ]
+    },
+    "RIGHT": {
+      "surface": "RIGHT",
+      "station": "RIGHT",
+      "passes": 4,
+      "nodes": 155,
+      "reachable": 155,
+      "unreachable": 0,
+      "joint_jumps": 0,
+      "min_clearance_m": 0.29598785473231515,
+      "poses_below_clearance": 0,
+      "within_joint_limits": true,
+      "path_length_m": 17.700000000000003,
+      "planned_duration_s": 52.89009422767857,
+      "success": true,
+      "max_joint_abs": [
+        1.15,
+        0.88,
+        2.42,
+        4.28,
+        1.39,
+        2.3
+      ]
+    },
+    "ROOF": {
+      "surface": "ROOF",
+      "station": "ROOF",
+      "passes": 11,
+      "nodes": 150,
+      "reachable": 150,
+      "unreachable": 0,
+      "joint_jumps": 0,
+      "min_clearance_m": 0.26326693987824396,
+      "poses_below_clearance": 0,
+      "within_joint_limits": true,
+      "path_length_m": 16.5,
+      "planned_duration_s": 53.982834141297104,
+      "success": true,
+      "max_joint_abs": [
+        0.76,
+        0.53,
+        1.97,
+        0.3,
+        1.56,
+        1.98
+      ]
+    },
+    "HOOD": {
+      "surface": "HOOD",
+      "station": "FRONT",
+      "passes": 9,
+      "nodes": 142,
+      "reachable": 142,
+      "unreachable": 0,
+      "joint_jumps": 0,
+      "min_clearance_m": 0.2346870318559364,
+      "poses_below_clearance": 0,
+      "within_joint_limits": true,
+      "path_length_m": 15.500000000000002,
+      "planned_duration_s": 49.864608328614835,
+      "success": true,
+      "max_joint_abs": [
+        0.76,
+        0.61,
+        2.38,
+        0.25,
+        1.33,
+        2.36
+      ]
+    },
+    "TRUNK": {
+      "surface": "TRUNK",
+      "station": "REAR",
+      "passes": 7,
+      "nodes": 112,
+      "reachable": 112,
+      "unreachable": 0,
+      "joint_jumps": 0,
+      "min_clearance_m": 0.23468943004865775,
+      "poses_below_clearance": 0,
+      "within_joint_limits": true,
+      "path_length_m": 12.150000000000002,
+      "planned_duration_s": 39.00000512764932,
+      "success": true,
+      "max_joint_abs": [
+        0.76,
+        0.61,
+        2.38,
+        0.25,
+        1.33,
+        2.35
+      ]
+    }
+  },
+  "rail_route_reports": {
+    "LEFT->RIGHT": {
+      "ok": true,
+      "min_clearance_m": 0.2117749025418868
+    },
+    "RIGHT->ROOF": {
+      "ok": true,
+      "min_clearance_m": 0.21185861523531746
+    },
+    "ROOF->FRONT": {
+      "ok": true,
+      "min_clearance_m": 0.21239427064741892
+    },
+    "FRONT->REAR": {
+      "ok": true,
+      "min_clearance_m": 0.212205880170812
+    },
+    "REAR->LEFT": {
+      "ok": true,
+      "min_clearance_m": 0.21185891185433714
+    },
+    "LEFT->ROOF": {
+      "ok": true,
+      "min_clearance_m": 0.21179759354040875
+    }
+  }
+}
